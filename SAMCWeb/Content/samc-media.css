@@ -1,0 +1,124 @@
+﻿/**/
+.body-content {
+    margin-top:70px;
+}
+
+@media (min-width:320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+    .company-misc {
+        width: 50%;
+        float: left;
+    }
+
+    .company-contact {
+        width: 50%;
+        float: right;
+    }
+
+    .company-logo img {
+        width: 56%;
+        margin: 0px auto;
+        display: block;
+    }
+
+    .company-misc img {
+        width: 40%;
+        margin: 0px auto;
+        display: block;       
+    }
+
+    .company-contact img {
+        width: 40%;
+        margin: 0px auto;
+        display: block;       
+    }    
+
+    .body-content {
+        margin-top: 70px;
+    }
+
+}
+
+@media (min-width:375px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .body-content {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width:425px) {
+    /* smartphones, Android phones, landscape iPhone */
+    .body-content {
+        margin-top: 130px;
+    }
+}
+
+@media (min-width:480px) { 
+    /* smartphones, Android phones, landscape iPhone */
+    .body-content {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:600px) { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .body-content {
+        margin-top: 250px;
+    }
+}
+
+@media (min-width:768px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .body-content {
+        margin-top: 330px;
+    }
+}
+
+@media (min-width:801px) { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .body-content {
+        margin-top: 550px;
+    }
+}
+
+@media (min-width:992px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .body-content {
+        margin-top: 150px;
+    }
+}
+
+@media (min-width:1024px) { 
+    /* big landscape tablets, laptops, and desktops */
+    .company-misc {
+        width: 100%;       
+    }
+
+    .company-contact {
+        width: 100%;
+    }
+
+    .body-content {
+        margin-top: 60px;
+    }
+
+}
+
+@media (min-width:1440px) {
+    /* big landscape tablets, laptops, and desktops */
+    .company-misc {
+        width: 100%;
+    }
+
+    .company-contact {
+        width: 100%;
+    }
+
+    .body-content {
+        margin-top: 60px;
+    }
+}
+
+
+

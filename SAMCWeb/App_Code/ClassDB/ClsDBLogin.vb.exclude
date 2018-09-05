@@ -1,0 +1,40 @@
+﻿Imports System.Data.Odbc
+Imports System.Text
+
+Public Class ClsDBLogin
+
+    Dim sb As StringBuilder
+    Dim cmd As OdbcCommand
+    Dim da As OdbcDataAdapter
+
+    Public Function CheckUserLogin(ByRef USER As ClsLogin, ByRef DBConn As OdbcConnection) As Boolean
+
+        Dim dtCheckUserLogin As New DataTable
+
+        Try
+            sb = New StringBuilder
+            With sb
+                .Append("SELECT UserID, UserName, UserPassword ")
+                .Append("FROM samc_user ")
+                .Append("WHERE UserID = '" & USER.UserID & "' AND UserPassword = '" & USER.Password & "'; ")
+            End With
+
+            cmd = New OdbcCommand(sb.ToString, DBConn)
+            da = New OdbcDataAdapter(cmd)
+            da.Fill(dtCheckUserLogin)
+
+            If dtCheckUserLogin.Rows.Count > 0 Then
+                Return True
+            Else
+                Return False
+            End If
+
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString)
+        End Try
+
+        Return True
+
+    End Function
+
+End Class

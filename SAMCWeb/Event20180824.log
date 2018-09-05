@@ -1,0 +1,96 @@
+
+*** 24/08/2018 10:56:27 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 10:56:27 ***
+Module :ClsDBAppointment.AddNewAppointment()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 11:29:44 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 11:49:31 ***
+Module :ClsDBAppointment.AddNewAppointment()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 11:51:38 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 11:52:26 ***
+Module :ClsDBAppointment.AddNewAppointment()
+Error :Incorrect datetime value: 'AP000065' for column 'AppointmentTime' at row 1
+
+*** 24/08/2018 11:57:17 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 12:02:31 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 12:02:46 ***
+Module :Appointment.AddNewAppointment()
+Error :Column 'PetIssues' does not belong to table .
+
+*** 24/08/2018 12:03:34 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 12:04:06 ***
+Module :Appointment.AddNewAppointment()
+Error :Column 'PetIssues' does not belong to table .
+
+*** 24/08/2018 12:05:17 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 12:06:25 ***
+Module :Appointment.AddNewAppointment()
+Error :Column 'PetIssues' does not belong to table .
+
+*** 24/08/2018 12:06:34 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 12:08:05 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 12:18:13 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'a.PetID' in 'field list'
+
+*** 24/08/2018 13:57:33 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 13:58:48 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Column 'AppointmentID' in field list is ambiguous
+
+*** 24/08/2018 14:00:28 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 14:01:34 ***
+Module :Appointment.AddNewUser()
+Error :Column 'AppointmentTime' does not belong to table .
+
+*** 24/08/2018 14:32:37 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 14:34:26 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 14:36:53 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
+
+*** 24/08/2018 15:25:35 ***
+Module :ClsDBAppointment.GetAppointmentSummary()
+Error :Unknown column 'PetID' in 'field list'
